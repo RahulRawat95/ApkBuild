@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CustomizeMessenger</string>
+    <!-- Progress messages -->
+    <string name="LoadingCertificateAnKey">Loading certificate and private key</string>
+    <string name="ParsingCentralDirectory">Parsing the input\'s central directory</string>
+    <string name="GeneratingManifest">Generating manifest</string>
+    <string name="GeneratingSignatureFile">Generating signature file</string>
+    <string name="GeneratingSignatureBlock">Generating signature block file</string>
+    <string name="CopyingZipEntry">Copying zip entry %1$d of %2$d</string>
+
+    <!-- Error message shown if the input and output filenames are the same -->
+    <string name="InputFileSameAsOutput">Input and output files are the same. Specify a different name for the output.</string>
+    <!-- Error message shown when the key/mode="auto" and the key to use for signing can't be determined.  %s replaced with input filename. -->
+    <string name="AutoKeySelectionError">Unable to auto-select key for signing %s</string>
+
+    <string name="key_password">helloworld</string>
+    <string name="alias_name">buildmlearn toolkit</string>
+    <string name="alias_password">buildmlearn</string>
+
+    <string name="apk_progress_dialog">Generating Apk</string>
+    <string name="restore_progress_dialog">Restoring</string>
+    <string name="apk_msg">Inserting data into Apk</string>
+</resources>
